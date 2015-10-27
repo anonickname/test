@@ -13,6 +13,7 @@
 		6AFFEEFB1BDA129000EC8D21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFEEFA1BDA129000EC8D21 /* Images.xcassets */; };
 		6AFFEEFE1BDA129000EC8D21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFEEFC1BDA129000EC8D21 /* LaunchScreen.xib */; };
 		6AFFEF0A1BDA129000EC8D21 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFEF091BDA129000EC8D21 /* testTests.swift */; };
+		6AFFEF141BDA12C000EC8D21 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFEF131BDA12C000EC8D21 /* MailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6AFFEF031BDA129000EC8D21 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFFEF081BDA129000EC8D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AFFEF091BDA129000EC8D21 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		6AFFEF131BDA12C000EC8D21 /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				6AFFEEF31BDA129000EC8D21 /* AppDelegate.swift */,
 				6AFFEEF51BDA129000EC8D21 /* ViewController.swift */,
 				6AFFEEF71BDA129000EC8D21 /* Main.storyboard */,
+				6AFFEF131BDA12C000EC8D21 /* MailViewController.swift */,
 				6AFFEEFA1BDA129000EC8D21 /* Images.xcassets */,
 				6AFFEEFC1BDA129000EC8D21 /* LaunchScreen.xib */,
 				6AFFEEF11BDA129000EC8D21 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				6AFFEEF61BDA129000EC8D21 /* ViewController.swift in Sources */,
 				6AFFEEF41BDA129000EC8D21 /* AppDelegate.swift in Sources */,
+				6AFFEF141BDA12C000EC8D21 /* MailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				6AFFEF0F1BDA129000EC8D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AFFEF101BDA129000EC8D21 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				6AFFEF121BDA129000EC8D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
